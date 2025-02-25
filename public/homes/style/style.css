@@ -1,0 +1,51 @@
+.font-roboto {
+    font-family: "Roboto", sans-serif;
+  }
+
+  .quicksand {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .spen-warna {
+    background: #38b6ff !important;
+  }
+
+  .navbar {
+    transition: background-color 0.3s ease-in-out,
+      box-shadow 0.3s ease-in-out;
+  }
+
+
+  .navbar.show {
+    background-color: rgba(0,
+        0,
+        0,
+        0.9) !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);/
+  }
+
+
+  .card {
+    height: 100%;
+  }
+
+  /* Agar gambar tidak terdistorsi */
+  .card iframe {
+    width: 100%;
+    height: 450px;
+  }
+
+  iframe {
+    background-color: transparent !important;
+    border: none;
+  }
+
+  .text-footer-card {
+    font-size: 15px;
+
+
+  }
+
